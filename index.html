@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+ </head>
+
+
+ <body
+  class="bg-gray-100">
+  <!-- HEADER--------------------------------------->
+  <header class="bg-white divide-y ml-60">
+   <div
+    class="flex justify-between items-center h-16 mx-4">
+    <!-- SEARCH BAR------------------------------ -->
+    <div id="search-bar" class="flex justify-center items-center flex-grow ">
+     <input type="text" placeholder="Search" class="border border-gray-300 h-8 py-2 px-2 w-3/5 focus:outline-none focus:border-blue-600">
+     <button class="bg-gray-100 flex items-center justify-center h-8 w-16 border border-l-0 border-gray-300 hover:bg-gray-200">
+      <span class="material-icons">search</span>
+     </button>
+     <button class="flex items-center ml-3">
+      <span class="material-icons">mic</span>
+     </button>
+    </div>
+    <!-- END OF SEARCH BAR----------------------- -->
+
+    <!-- ICONS------------------------------------ -->
+    <div id="icons" class="flex justify-center items-center space-x-6 ">
+     <button class="flex justify-center items-center">
+      <span class="material-icons">video_call</span>
+     </button>
+     <button class="flex justify-center items-center">
+      <span class="material-icons">apps</span>
+     </button>
+     <button class="flex justify-center items-center">
+      <span class="material-icons">notifications</span>
+     </button>
+     <button class="flex justify-center items-center">
+      <div class="h-8 w-8">
+       <img src="img/pic1.jpg" alt="user image" class="rounded-full">
+      </div>
+     </button>
+    </div>
+    <!-- END OF ICONS----------------------------- -->
+   </div>
+
+   <!-- RECOMANDATIONS ------------------------------>
+   <div id="recomand" class="flex items-center space-x-4 px-3 py-3 cursor-pointer overflow-auto whitespace-nowrap ">
+    <span class="text-sm bg-gray-800 rounded-full px-3 py-1 text-white  hover:bg-gray-400">All</span>
+    <span class="text-sm bg-gray-100 rounded-full px-3 py-1 text-gray-800  hover:bg-gray-200 border border-gray-300 ">Css</span>
+    <span class="text-sm bg-gray-100 rounded-full px-3 py-1 text-gray-800  hover:bg-gray-200 border border-gray-300  ">Computer Programming</span>
+    <span class="text-sm bg-gray-100 rounded-full px-3 py-1 text-gray-800  hover:bg-gray-200 border border-gray-300 ">Podcasts</span>
+    <span class="text-sm bg-gray-100 rounded-full px-3 py-1 text-gray-800  hover:bg-gray-200 border border-gray-300 ">Toughts</span>
+    <span class="text-sm bg-gray-100 rounded-full px-3 py-1 text-gray-800  hover:bg-gray-200 border border-gray-300 ">Computers</span>
+    <span class="text-sm bg-gray-100 rounded-full px-3 py-1 text-gray-800  hover:bg-gray-200 border border-gray-300 ">Bitcoin</span>
+    <span class="text-sm bg-gray-100 rounded-full px-3 py-1 text-gray-800  hover:bg-gray-200 border border-gray-300 ">Music</span>
+    <span class="text-sm bg-gray-100 rounded-full px-3 py-1 text-gray-800  hover:bg-gray-200 border border-gray-300 ">iUmor</span>
+    <span class="text-sm bg-gray-100 rounded-full px-3 py-1 text-gray-800  hover:bg-gray-200 border border-gray-300 ">Graphic Design</span>
+    <span class="text-sm bg-gray-100 rounded-full px-3 py-1 text-gray-800  hover:bg-gray-200 border border-gray-300 ">User Interface Design</span>
+   </div>
+   <!-- END OF RECOMANDATIONS ---------------------------->
+  </header>
+  <!-- END OF HEADER----------------------------------- -->
+
+  <!-- SIDEBAR -->
+  <aside class="fixed top-0 w-60 pr-3	 h-screen bg-white flex flex-col pt-3 ">
+   <div
+    class="flex pl-7">
+    <!-- MENU BUTTON ------------------------------->
+    <button class="flex mr-5  ">
+     <i class="large material-icons">menu</i>
+    </button>
+    <!-- END OF MENU BUTTON ------------------------>
+
+    <!-- LOGO------------------------------------ -->
+    <img
+    src="img/logo.png" alt="youtube logo" class="w-24">
+   <!-- END OF LOGO---------------------------- -->
+   </div>
+
+   <!-- SIDE ICONS ------------------------------->
+   <div id="side-icons" class="mt-8 flex flex-col ">
+    <button class="flex pl-5 bg-gray-200 h-10 p-2">
+     <i class="large material-icons text-red-500  ">home</i>
+     <h1 class="text-sm pl-5 font-semibold text-gray-800">Home</h1>
+    </button>
+    <button class="flex pl-5 p-2 hover:bg-gray-100">
+     <i class="large material-icons text-gray-600">explore</i>
+     <h1 class=" text-sm pl-5 text-gray-800 ">Explore</h1>
+    </button>
+    <button class="flex pl-5 p-2 hover:bg-gray-100">
+     <i class="large material-icons text-gray-600">subscriptions</i>
+     <h1 class=" text-sm pl-5 text-gray-800">Subscription</h1>
+    </button>
+    <hr class="m-3">
+    <button class="flex pl-5 p-2 hover:bg-gray-100">
+     <i class="large material-icons text-gray-600">video_library</i>
+     <h1 class=" text-sm pl-5 text-gray-800 ">Library</h1>
+    </button>
+    <button class="flex pl-5 p-2 hover:bg-gray-100">
+     <i class="large material-icons text-gray-600">history</i>
+     <h1 class=" text-sm pl-5 text-gray-800 ">History</h1>
+    </button>
+    <button class="flex pl-5 p-2 hover:bg-gray-100">
+     <i class="large material-icons text-gray-600">slideshow</i>
+     <h1 class=" text-sm pl-5 text-gray-800 ">Your Videos</h1>
+    </button>
+    <button class="flex pl-5 p-2 hover:bg-gray-100">
+     <i class="large material-icons text-gray-600">watch_later</i>
+     <h1 class=" text-sm pl-5 text-gray-800 ">Watch later</h1>
+    </button>
+    <button class="flex pl-5 p-2 hover:bg-gray-100">
+     <i class="large material-icons text-gray-600">thumb_up</i>
+     <h1 class=" text-sm pl-5 text-gray-800 ">Liked videos</h1>
+    </button>
+    <!-- END OF SIDE ICONS---------------------- -->
+    <hr class="m-3">
+   </div>
+  </aside>
+  <!-- END OF SIDEBAR--------------------------- -->
+
+  <!-- MAIN SECTION----------------------------- -->
+  <main class="ml-60 mr-8 grid gap-4 grid-cols-4">
+
+
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+   <div class="w-72 px-6 pt-4">
+    <img src="img/pic2.jpg" alt="img" class="">
+    <div class="flex mt-3">
+     <div class="h-9 w-9 bg-gray-900 rounded-full flex-shrink-0 "></div>
+     <div class="ml-2">
+      <h1 class="text-sm font-bold ml-2 ">Lorem ipsum dolor sit amet consectetur.
+      </h1>
+      <p class="text-sm ml-2">Lorem ipsum dolor sit.</p>
+     </div>
+    </div>
+   </div>
+
+
+  </main>
+  <!-- END OF MAIN SECTION -------------------------->
+
+ </body>
+</html>
